@@ -9,7 +9,7 @@ do
 i=`expr $i + 1` 
 #或
 #i=$(($i+1))
-./client.py&
+./dev.py&
 
 done 
 date
