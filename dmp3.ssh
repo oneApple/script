@@ -1,0 +1,13 @@
+#!/bin/bash
+for((i=1;i<49;i++))
+do
+	if(($i<10))
+	then
+		head='0'
+    else
+		head=''
+	fi
+	url='http://s5.hxen.com/m2/tingli/nce/4-'$head$i'.mp3'
+	wget $url
+done
+
